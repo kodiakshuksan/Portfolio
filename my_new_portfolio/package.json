@@ -2,6 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage":   "https://kodiakshuksan.github.io/my-app",
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.7",
@@ -32,14 +33,13 @@
       ">0.2%",
       "not dead",
       "not op_mini all"
-    ],
+    ]
+  },
+    
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
-    ],
-    "homepage": [ 
-    "https://kodiakshuksan.github.io/my-app"
     ]
   }
 }
