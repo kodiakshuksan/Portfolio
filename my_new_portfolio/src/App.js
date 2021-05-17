@@ -1,13 +1,9 @@
-
-import Body from './Components/Body/Body';
+import React from "react";
+import Body from './Components/Body/Body.js';
 import Home from './Components/Home/Home';
 import Footer from './Components/Footer/Footer';
-import NavBar from './Components/NavBar/Navbar';
+import NavBar from './Components/NavBar/NavBar';
 
-
-
-
-import './App.css';
 
 function App() {
   return (
