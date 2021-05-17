@@ -13,7 +13,7 @@ const NavBar  = () => {
                 <ul>
                     
                     <li>
-                        <a href="/">Home</a>
+                        <a href="/"></a>
                     </li>
 
                         

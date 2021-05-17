@@ -1,7 +1,7 @@
 const styles = {
 header: {
     background: "#b71775",
-    height: "609px"
+    height: "643px"
     
   },
   

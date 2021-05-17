@@ -1,23 +1,27 @@
-import React from 'react'
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
+import React from 'react';
+import styles from "./Footer.css";
 
 const footer = () => {
     return (
-        
-        <div>
-            {<Navbar bg="light" expand="lg">
-        
-                <Nav className="mr-auto">
-                    
-                    <Nav.Link href="#GitHub">GitHub</Nav.Link>
-                    <br></br>
-                    <Nav.Link href="#Linkedin">Linkedin</Nav.Link>
-                   
-                </Nav>
-                </Navbar>}
-        </div>
+   
+        <div style={styles.footerNav} className="footerNav">        
+        <nav>
+            
+            <ul>
                 
+                <li>
+                    <a href="/#github">gitHub</a>
+                </li>
+
+                    
+
+                <li>
+                    <a href="/#linkedin">Linkedin</a>
+                </li>
+
+            </ul>
+        </nav>
+    </div> 
         
     )
 }
