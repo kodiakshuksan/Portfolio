@@ -1,0 +1,32 @@
+.navBar {
+  background: #181818;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navBar nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navBar nav ul li { 
+    margin: 20px;
+    display: inline-block;
+  }
+  
+  .navBar nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .navBar a:hover {
+    border-bottom: 5px solid #81c;
+  }
+  
+  

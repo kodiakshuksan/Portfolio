@@ -1,30 +1,51 @@
 import React from 'react'
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
+//import Navbar from 'react-bootstrap/Navbar';
+//import Nav from 'react-bootstrap/Nav';
+import styles from './NavStyle.css';
 
-const NavBar = () => {
+
+const NavBar  = () => {
     return (
-        
-        <div>
-            {<Navbar bg="light" expand="lg">
-        
-                <Nav className="mr-auto">
-                    <Nav.Link href="#home"></Nav.Link>
-                    <br></br>
-                    <Nav.Link href="#About">About</Nav.Link>
-                    <br></br>
-                    <Nav.Link href="#Resume">Resume</Nav.Link>
-                    <br></br>
-                    <Nav.Link href="#Projects">Projects</Nav.Link>
-                    <br></br>
-                    <Nav.Link href="#Contact Me">Contact Me</Nav.Link>
-                </Nav>
-        
-                </Navbar>}
-        </div>
+
+        <div style={styles.navBar} className="navBar">        
+            <nav>
                 
-        
+                <ul>
+                    
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+
+                        
+
+                    <li>
+                        <a href="/#about">About</a>
+                    </li>
+
+                        
+
+                    <li>
+                        <a href="/#resume">Resume</a>
+                    </li>
+
+    
+
+                    <li>
+                        <a href="/#Projects">Projects</a>
+                    </li>
+
+                
+
+                    <li>
+                        <a href="/#Contact">Contact</a>
+                    </li>
+
+                </ul>
+            </nav>
+        </div>
+    
     )
 }
+
 
 export default NavBar;
