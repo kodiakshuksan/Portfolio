@@ -1,3 +1,6 @@
+import React from 'react';
+
+
 const styles = {
 header: {
     background: "#b71775",
